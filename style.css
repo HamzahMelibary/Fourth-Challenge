@@ -91,7 +91,21 @@ button {
 .container p {
     margin-bottom: 3rem;
 }
-
+.one:hover {
+    color: white;
+    background: var(--Brightorange);
+    outline: 1px solid white;
+}
+.two:hover {
+    color: white;
+    background: var(--Darkcyan);
+    outline: 1px solid white;
+}
+.three:hover {
+    color: white;
+    background: var(--Verydarkcyan);
+    outline: 1px solid white;
+}
  }
 
 
