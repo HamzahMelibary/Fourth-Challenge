@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75); /* (paragraphs) */
+    --Verylightgray: hsl(0, 0%, 95%); /*(background, headings, buttons) */
+}
+body {
+    font-size: 15px;
+    background-color: var(--Verylightgray);
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--Transparentwhite);
+    text-align: left;
+}
+.container {
+    margin: 3rem auto;
+    width: 200px;
+    
+}
+.container .block-one {
+    background-color: var(--Brightorange);
+    padding: 30px;
+    border-radius: 5px 5px 0 0;
+}
+.container .block-two {
+    background-color: var(--Darkcyan);
+    padding: 30px;
+}
+.container .block-three {
+    background-color: var(--Verydarkcyan);
+    padding: 30px;
+    border-radius: 0 0 5px 5px;
+}
+.icon {
+    width: 25%;
+    padding-bottom: 1rem;
+}
+
+.container h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--Verylightgray);
+    padding-bottom: 1.5rem;
+}
+.container p {
+    font-size: 10px;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+    width: 157px;
+    
+}
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    width: 90px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    font-size: 10px;
+
+}
+.one {
+    color: var(--Brightorange);
+}
+.two {
+    color: var(--Darkcyan);
+}
+.three {
+    color: var(--Verydarkcyan);
+}
+
+
+
+@media (min-width: 768px) { 
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 15rem;
+    }
+ .container .block-one {
+        border-radius: 5px 0 0 5px;
+    }
+.container .block-three {
+    border-radius: 0 5px 5px 0;
+}
+.container p {
+    margin-bottom: 3rem;
+}
+
+ }
+
+
+.attribution { 
+     font-size: 11px;
+     text-align: center;
+     color: black;
+     }
+.attribution a { color: hsl(228, 45%, 44%); }
+
